@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Пройдите официальный опрос от TeslaX и получите доступ к платформе
+    </title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="picture/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+
+    <div class="line_progress" id="moveableBlock"></div>
+    <div class="nav">
+      <div class="arrow"><img src="picture/arrow-left.png" alt="" /></div>
+      <div class="line"></div>
+      <div class="arrow">
+        <img src="picture/arrow-right.png" alt="" />
+      </div>
+    </div>
+
+    <div class="block1">
+      <div class="main-block">
+        <img src="picture/tesla.svg" alt="" />
+        <h1>
+          Подключитесь к проекту Илона Маска и зарабатывайте от
+          <span class="red">4.000€</span> <br />ежемесячно!
+        </h1>
+      </div>
+ 
+      <div class="below-block">
+        <div class="block-left">
+          <p>
+            <span>Илон Маск</span><br />
+            Основатель<br />
+            AO «Tesla X»
+          </p>
+          <img src="picture/mast-autog.png" alt="" />
+        </div>
+        <br />
+        <div class="block-right">
+          <img src="picture/mask.jpeg" alt="" />
+        </div>
+      </div>
+      <a href="page1.html"> <button class="black-botton" onclick="moveBlock()">Далее</button></a>
+      
+    </div>
+
+    <script>
+      function moveBlock() {
+        var line_progress = document.getElementById("moveableBlock");
+        line_progress.style.left = "1%";
+      }
+    </script>
+  </body>
+</html>
